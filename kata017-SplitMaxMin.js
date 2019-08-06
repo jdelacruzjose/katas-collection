@@ -1,4 +1,5 @@
 // ************************************************************************************
+// https://www.codewars.com/kata/563cf89eb4747c5fb100001b/train/javascript
 // In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
 
 // Example:
