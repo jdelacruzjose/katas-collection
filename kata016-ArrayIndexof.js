@@ -22,7 +22,7 @@
 let gimme = function (inputArray) {
   let order = inputArray.slice().sort(function(a,b) { return a-b;});
   return inputArray.indexOf(order[1]);
-   
+}  
 
 //////// the best solution: ////////
 // function gimme(a) {
