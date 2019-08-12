@@ -1,4 +1,5 @@
 // ************************************************************************************
+// https://www.codewars.com/kata/number-of-anagrams-in-an-array-of-words
 // Description:
 // An anagram is a word, a phrase, or a sentence formed from another by rearranging its letters. An example of this is "angel", which is an anagram of "glean".
 
