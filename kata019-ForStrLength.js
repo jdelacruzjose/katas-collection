@@ -1,6 +1,6 @@
 // ************************************************************************************
 // https://www.codewars.com/kata/563cf89eb4747c5fb100001b/train/javascript
-// An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+// Description: An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
 // isIsogram( "Dermatoglyphics" ) == true
 // isIsogram( "aba" ) == false
