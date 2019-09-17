@@ -13,7 +13,7 @@ let cardNumber = '1213333113337686';
 
 function maskify() {
   cardNumber = cardNumber.split("");
-  for(var i = 0; i < cardNumber.length - 4; i++){
+  for(let i = 0; i < cardNumber.length - 4; i++){
     cardNumber[i] = "#";
 }
 
@@ -22,6 +22,13 @@ return cardNumber
 }
 
 maskify();
+
+// Steps
+// 1. Create a Variable that stores the number as an array (Using .split(""))
+// 2. Run a for loop(.length of array -4 last digits)
+// 3. Assign [i] as a #
+// 4. Then assign the same variable again as a string & return (Using .join(""))
+
 
 //////// the best solution: ////////
 // function maskify(cc) {
