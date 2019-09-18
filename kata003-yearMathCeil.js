@@ -17,6 +17,10 @@ function century(year){
   
   century(2000);
 
+// Steps
+// 1. Create a function with a placeholder “year”.
+// 2. Return Math.ceil (year/100).
+// 3. Call the function.
   
 //////// the best solution: ////////
 // const century = year => Math.ceil(year/100)
