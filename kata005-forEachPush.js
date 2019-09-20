@@ -26,6 +26,13 @@ function friend(friends){
   return newFriends
 }
 
+// Steps
+// 1. Create a empty array variable. 
+// 2. Run a for loop using the placeholder.length
+// 3. Use a Boolean statement if string length equals 4 and is not a number.
+// 4. If true push variable into a new array.
+// 5. After return variable.
+
   
 //////// the best solution: ////////
 // function friend(friends){
