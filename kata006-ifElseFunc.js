@@ -23,6 +23,10 @@ function isTriangle (a, b, c){
   return true;
   }
 
+// Steps
+// 1. Create Boolean if all variables === 0; Return False
+// 2. Use Else If for each possibility that doesn't return equal an integer; Return False
+// 3. If all three integer equal; Return True
   
 //////// the best solution: ////////
 // function isTriangle(a,b,c)
