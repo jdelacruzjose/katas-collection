@@ -11,14 +11,18 @@
 //////// my solution: ////////
 function positiveSum(arr) {
   let total = 0;    
-  for (i = 0; i < arr.length; i++) {    // setup loop to go through array of given length
-    if (arr[i] > 0) {                   // if arr[i] is greater than zero
-      total += arr[i];                  // add arr[i] to total
+  for (i = 0; i < arr.length; i++) {     
+    if (arr[i] > 0) {                   
+      total += arr[i];                 
     }
   }
-  return total;                         // return total
+  return total;                         
 }
 
+// Steps
+// 1. Setup loop to go through array of given length
+// 2. If arr[i] is greater than zero, add arr[i] to total
+// 3. Return Total
 
 //////// the best solution: ////////
 // function positiveSum(arr) {
