@@ -34,13 +34,19 @@ function anagramCounter(someArr){
     for (let k = i +1; k < someArr.length; k++){
       if(isItAnagram(someArr[i], someArr[k])){
         counter ++;
+      }
     }
-  }
   }
   return counter;
 }
 
-maskify();
+// Steps
+// 1. Create Funtion with Boolean declaring if array absolutely equals previous array
+// 2. Use sort & join methods to sort array by alphabetical order then convert it to a string to compare
+// 3. Then create a for loop for each array
+// 4. Within the function callback the previous function to compare
+// 5. Return result
+
 
 //////// the best solution: ////////
 // function anagramCounter(arrayOfWords){
