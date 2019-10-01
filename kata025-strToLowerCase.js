@@ -17,6 +17,10 @@ function spEng(sentence){
   return sentenceLower.includes('english');
 }
 
+// Steps
+// 1. Declare a variable that hold the placeholder.toLowerCase method.
+// 2. Use .includes method then return the variable.
+// 3. Call the function using a string.
 
 //////// the best solution: ////////
 // var spEng = (sentence) => sentence.toLowerCase().includes('english');
