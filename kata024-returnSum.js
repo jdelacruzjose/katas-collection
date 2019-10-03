@@ -20,5 +20,10 @@ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
 
+// Steps
+// 1. Call a Function 
+// 2. Use the variable as placeholders 
+// 3. Return a sum of all the variables 
+
 //////// the best solution: ////////
 // const goals = (...a) => a.reduce((s, v) => s + v, 0);
