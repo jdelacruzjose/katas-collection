@@ -29,6 +29,10 @@ function getGrade (s1, s2, s3) {
   return 'F'
 }
 
+// Steps
+// 1. Add variables then divide by 3
+// 2. Then use multiple if statements 
+// 3. Return total as a grade based on final sum
 
 //////// the best solution: ////////
 // function getGrade (s1, s2, s3) {
