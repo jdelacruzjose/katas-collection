@@ -23,6 +23,10 @@ function duplicateCount(text){
   }).length;
 }
 
+// Steps
+// 1. Return placeholder to lowerCase then turn string into an array
+// 2. Return array check if value or variable is repeated by length of array length
+// 3. 
   
 //////// the best solution: ////////
 // function duplicateCount(text){
