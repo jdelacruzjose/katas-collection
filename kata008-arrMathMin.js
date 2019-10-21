@@ -21,6 +21,11 @@ function minMax(arr){
   return [Math.min.apply(Math, arr), Math.max.apply(Math, arr)];
 }
 
+// Steps
+// 1. Call a Function
+// 2. Return a array using Math.min and Math.max
+// 3. Use Math & arr placeholders in-order to return the number within a array.
+
 
 //////// the best solution: ////////
 // function minMax(arr){
