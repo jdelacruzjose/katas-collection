@@ -24,6 +24,12 @@ function getCount(str) {
   return vowelsCount;
 }
 
+// Steps
+// 1. Create a count variable and a array with all vowels
+// 2. Convert str toLowerCase
+// 3. Run a for-each loop to count if the variable matches
+// 4. Return the total count variable
+
 
 //////// the best solution: ////////
 // function getCount(str) {
