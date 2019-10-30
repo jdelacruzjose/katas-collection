@@ -42,6 +42,12 @@ function diamond (n) {
 
 }
 
+// Steps
+// 1. If statement using placement holder
+// 2. Create a empty string
+// 3. Run a for loop
+// 4. Then return str
+
 //////// the best solution: ////////
 // function diamond(n){
 //   if( n%2==0 || n<1 ) return null
