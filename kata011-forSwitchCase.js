@@ -44,6 +44,12 @@ function tickets(peopleInLine) {
   return 'YES'
 }
 
+// steps
+// 1. create a array of bills
+// 2. run a for loop through the array of placeholder
+// 3. create a switch case with a counter to return the 'tickets'
+
+
 //////// the best solution: ////////
 // function Clerk(name) {
 //   this.name = name;
