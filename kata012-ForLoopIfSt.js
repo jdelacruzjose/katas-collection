@@ -45,6 +45,11 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
   }
 }
 
+//Steps
+//1. Create a class function 
+//2. Then create a declare winner function 
+//3. Run a for loop and Boolean statements 
+
 
 //////// the best solution: ////////
 // function declareWinner(fighter1, fighter2, firstAttacker) {
