@@ -36,6 +36,11 @@ function queueTime(customers, n) {
   return Math.max(...tills);
 }
 
+// Steps
+// 1. Create a variable using an array with the .fill() method.
+// 2. Run a for-each loop with a var declaring the lowest number.
+// 3. Then return wait time maximum within a new array. 
+
 //////// the best solution: ////////
 // function queueTime(customers, n) {
 //   var w = new Array(n).fill(0);
