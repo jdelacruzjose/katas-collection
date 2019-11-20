@@ -28,6 +28,11 @@ function openOrSenior(data){
     return members;
   }
 
+//Steps
+//1. Create a empty array.
+//2. Run Forloop checking for conditionals.
+//3. Push it into a new array.
+
 //////// the best solution: ////////
 // function openOrSenior(data){
 //   return data.map(([age, handicap]) => (age > 54 && handicap > 7) ? 'Senior' : 'Open');
