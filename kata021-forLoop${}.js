@@ -16,6 +16,10 @@ function countSheep(num){
     return sheep;
   } 
 
+// Steps
+// 1. Create a empty string variable.
+// 2. For a for loop on the placeholder.
+// 3. Then return the number of sheep.
 
 //////// the best solution: ////////
 // countSheep=n=>[...Array(n).keys()].map(x=>`${x+1} sheep...`).join``
