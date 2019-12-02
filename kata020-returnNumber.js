@@ -16,6 +16,10 @@ function opposite(number) {
   return(-number);
 }
 
+// Steps
+// 1. Run a function using number as the parameter.
+// 2. Return the opposite of the number.
+
 
 //////// the best solution: ////////
 // const opposite = number => -number;
