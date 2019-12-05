@@ -37,6 +37,11 @@ function calculateYears(principal, interest, tax, desired) {
   return years;
 }
 
+// steps
+// 1. Run a do while loop.
+// 2. If principal is greater than desired, then excute the equation.
+// 3. Return years as a accumulater.
+
 
 //////// the best solution: ////////
 // function calculateYears(principal, interest, tax, desired) {
