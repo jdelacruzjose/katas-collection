@@ -31,6 +31,11 @@ function likes(names) {
   }
 }
 
+// Steps
+// 1. Use a swtich case within the function.
+// 2. For each case interpolate the names the array.
+// 3. Return the total array minus the names that were stated. 
+
 //////// the best solution: ////////
 // function likes(names) {
 //   return {
