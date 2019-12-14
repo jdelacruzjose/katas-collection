@@ -24,6 +24,11 @@ let gimme = function (inputArray) {
   return inputArray.indexOf(order[1]);
 }  
 
+steps
+1. Create a var that slice the array as well as sort the array in order.
+2. After compare then subtract the two indexs. 
+3. Return inputArray in index which fits within the triplet. 
+
 //////// the best solution: ////////
 // function gimme(a) {
 //   return a.indexOf(a.concat().sort(function(a, b) { return a - b })[1])
