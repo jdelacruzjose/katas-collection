@@ -13,11 +13,11 @@
 let theeWolf = ["sheep", "wolf", "sheep", "sheep", "sheep", "sheep", "sheep"]
 
 function warnTheSheep(queue) {
-  let wolf = queue.indexOf("wolf")
-  let sheep = queue.length - 1 - wolf
+  let wolf = queue.indexOf("wolf") //create a variable finding the index of the "wolf". 
+  let sheep = queue.length - 1 - wolf // create a variable subtracting the last index as well as the wolf variable.
 
     if(queue[queue.length -1] === "wolf"){
-      return "Pls go away and stop eating my sheep"      
+      return "Pls go away and stop eating my sheep"  //conditional based on the index of the wolf    
     } else {
       return `Oi! Sheep number ${sheep}! You are about to be eaten by a wolf!`
   }
